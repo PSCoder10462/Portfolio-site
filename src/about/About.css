@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.about__mypic {
+  flex: 0.4;
+  height: 500px;
+  object-fit: contain;
+  transition: 0.2s ease-in-out;
+}
+
+.about__content {
+  flex: 0.6;
+  padding: 30px;
+}
+
+.about__content > ol {
+  margin-top: 20px;
+  list-style: square;
+}
+
+.about__mypic:hover {
+  transform: scale(1.08);
+}
+
+@media screen and (max-width: 400px) {
+  .about {
+    width: 100vw;
+  }
+  .about__content {
+    width: 100% !important;
+    padding: 0;
+    padding-top: 20;
+    margin-bottom: 20px;
+  }
+}

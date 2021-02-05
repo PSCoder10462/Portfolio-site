@@ -1,0 +1,29 @@
+.getInTouch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.getInTouch > img,
+.getInTouch > a > img {
+  object-fit: contain;
+  max-height: 80px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.gmail {
+  max-height: 150px !important;
+}
+
+.github {
+  max-height: 100px !important;
+}
+
+.getInTouch > img:hover,
+.getInTouch > a > img:hover {
+  transform: scale(1.08) !important;
+}
