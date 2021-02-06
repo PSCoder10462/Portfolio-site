@@ -3,6 +3,7 @@
   width: 100vw;
   transition: 0.2s ease-in-out;
   top: 0;
+  z-index: 9999;
 }
 nav {
   height: 8vh;
@@ -67,6 +68,7 @@ nav {
       #001d7b,
       #001a8e
     );
+    z-index: 50;
     flex-direction: column;
     clip-path: circle(100px at 90% -10%);
     -webkit-clip-path: circle(100px at 110% -10%);

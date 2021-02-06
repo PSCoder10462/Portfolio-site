@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  transform-style: flat;
   background-image: linear-gradient(
     to right bottom,
     #00183b,
