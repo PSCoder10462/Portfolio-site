@@ -1,5 +1,5 @@
 # deployed site: 
-  https://www.parvsharma.netlify.app
+  https://parvsharma.netlify.app
 
 # Getting Started with Create React App
 
