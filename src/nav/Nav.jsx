@@ -37,7 +37,8 @@ function Nav() {
       behavior: "smooth",
     });
 
-    toggler();
+    const el = document.querySelector(".nav-links");
+    el.classList.remove("open");
   };
   return (
     <div className="navbar">
