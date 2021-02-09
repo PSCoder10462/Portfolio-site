@@ -17,13 +17,19 @@ function GetInTouch() {
 
   return (
     <div className="getInTouch">
-      <img
-        onClick={() => copy("pscoder10462@gmail.com")}
-        src={mail}
-        alt="e-mail"
-        className="gmail"
-        data-aos="fade-right"
-      />
+      <a
+        href="mailto:pscoder10462@gmail.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          // onClick={() => copy("pscoder10462@gmail.com")}
+          src={mail}
+          alt="e-mail"
+          className="gmail"
+          data-aos="fade-right"
+        />
+      </a>
       <a
         href="https://www.linkedin.com/in/parv-sharma10462/"
         rel="noreferrer"
