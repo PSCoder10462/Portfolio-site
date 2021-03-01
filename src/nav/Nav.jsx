@@ -4,7 +4,6 @@ import "./Nav.css";
 function Nav() {
   useEffect(() => {
     const el = document.querySelector(".navbar");
-    console.log(el);
     if (el) {
       let prevScrollpos = window.pageYOffset;
       window.onscroll = () => {
