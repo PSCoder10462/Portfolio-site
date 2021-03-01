@@ -27,7 +27,6 @@ function App() {
       <hr />
       <h2 data-aos="fade-down">projects</h2>
       <Projects />
-      <p>~ This field will be updated soon...</p>
       <hr />
       <h2 data-aos="fade-down">languages</h2>
       <Languages />
