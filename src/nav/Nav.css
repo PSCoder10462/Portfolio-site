@@ -71,8 +71,8 @@ nav {
     );
     z-index: 50;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 110% -10%);
+    clip-path: circle(10px at 110% -10%);
+    -webkit-clip-path: circle(10px at 110% -10%);
     transition: 0.5s ease-in-out;
   }
 
