@@ -37,3 +37,9 @@
   color: black;
   border: 0.5px solid black;
 }
+
+@media screen and (max-width: 730px) {
+  .card {
+    margin: 0 auto;
+  }
+}
