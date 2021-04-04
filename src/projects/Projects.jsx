@@ -2,9 +2,15 @@ import React from "react";
 import imessage from "./imessage.png";
 import twitter from "./twitter.png";
 import portfolio from "./portfolio.png";
+import wssap from "./wssap.png";
 import Card from "../card/Card";
 
 const proj = [
+  {
+    pic: wssap,
+    head: "whatsapp clone",
+    link: "https://ps-whatsapp.netlify.app/",
+  },
   {
     pic: twitter,
     head: "twitter clone",
