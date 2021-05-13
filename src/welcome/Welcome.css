@@ -8,14 +8,14 @@
   animation-duration: 2s;
 }
 
-@keyframes fadein {
+/* @keyframes fadein {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-}
+} */
 
 .welcome > h1 {
   text-align: center;
