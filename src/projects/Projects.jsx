@@ -3,9 +3,15 @@ import imessage from "./imessage.png";
 import twitter from "./twitter.png";
 import portfolio from "./portfolio.png";
 import wssap from "./wssap.png";
+import amazon from "./amazon.png";
 import Card from "../card/Card";
 
 const proj = [
+  {
+    pic: amazon,
+    head: "amazon clone",
+    link: "https://pscoder10462.github.io/amazon/",
+  },
   {
     pic: wssap,
     head: "whatsapp clone",
