@@ -9,9 +9,9 @@
 
 .about__mypic {
   flex: 0.4;
-  height: 500px;
+  height: 600px;
   object-fit: contain;
-  transition: 0.2s ease-in-out;
+  margin-bottom: 20px;
 }
 
 .about__content {
@@ -19,13 +19,15 @@
   padding: 30px;
 }
 
-.about__content > ol {
-  margin-top: 20px;
-  list-style: square;
+.about__content > p {
+	color: var(--basicFontColor);
+	font-size: 18px;
 }
 
-.about__mypic:hover {
-  transform: scale(1.08);
+.about__content > p > span {
+	color: var(--orange);
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 400px) {

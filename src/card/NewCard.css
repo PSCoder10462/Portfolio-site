@@ -1,0 +1,60 @@
+.newCard {
+	border-radius: 10px;
+	background-color: var(--gray);
+	width: 18rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+	overflow: hidden;
+	margin: 0 auto;
+	height: fit-content;
+}
+
+.newCard:hover {
+	background-color: var(--lightgray);
+}
+
+.newCard__media {
+	height: 10rem;
+}
+
+.newCard__media > svg {
+	fill: var(--dark);
+	height: 100%;
+}
+
+.newCard__media > img {
+	max-width: 14rem;
+	max-height: 10rem;
+	object-fit: contain;
+}
+
+.newCard > h3 {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.newCard__btnSection > a > button {
+	background-color: var(--orange);
+	color: white;
+	padding: 5px 8px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin: 15px 2px;
+	margin-bottom: 0;
+	border: none;
+}
+
+.newCard__btnSection > a > button > svg {
+	fill: white;
+	height: 16px;
+	font-weight: bold;
+}

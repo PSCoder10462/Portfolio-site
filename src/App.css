@@ -5,10 +5,11 @@
 }
 
 .app > h2 {
-  font-size: 32px;
+  font-size: 48px;
   text-align: center;
   width: 100vw;
   text-transform: uppercase;
+  color: var(--orange);
 }
 
 .app > p {

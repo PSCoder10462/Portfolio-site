@@ -1,18 +1,20 @@
 import React from "react";
 import "./Welcome.css";
-import Typing from "react-typing-animation";
 
 function Welcome() {
-  return (
-    <Typing>
-      <div className="welcome">
-        <h1>
-          Hello, <br /> I am
-          <span> Parv Sharma </span>
-        </h1>
-      </div>
-    </Typing>
-  );
+	return (
+		<div data-aos="fade-down" className="welcome">
+			<div className="welcome__container">
+				<h1>
+					Hi, I am <br />
+					<span id="name"> Parv Sharma </span>
+					<br />
+					Web Developer, Competitive Programmer
+				</h1>
+				<button> Resume </button>
+			</div>
+		</div>
+	);
 }
 
 export default Welcome;

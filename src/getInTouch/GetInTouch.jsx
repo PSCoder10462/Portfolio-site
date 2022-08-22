@@ -1,8 +1,5 @@
-import React from "react";
-import mail from "./mail.png";
-import linkedin from "./linkedin.png";
-import github from "./github.png";
 import "./GetInTouch.css";
+import { GmailLogo, LinkedInLogo, GithubLogo } from '../Logos.js';
 
 function GetInTouch() {
   return (
@@ -12,27 +9,30 @@ function GetInTouch() {
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img src={mail} alt="e-mail" className="gmail" data-aos="fade-right" />
+		  <button data-aos='flip-up' className='getInTouch__btn'>
+			  <GmailLogo />
+			  <h3> Mail </h3>
+		  </button>
       </a>
       <a
         href="https://www.linkedin.com/in/parv-sharma10462/"
         rel="noreferrer"
         target="_blank"
       >
-        <img
-          data-aos="fade-up"
-          className="linkedin"
-          src={linkedin}
-          alt="linked-in"
-        />
+		  <button data-aos='flip-up' className='getInTouch__btn'>
+			  <LinkedInLogo />
+			  <h3> LinkedIn </h3>
+		  </button>
       </a>
       <a
         href="https://github.com/PSCoder10462/"
         rel="noreferrer"
         target="_blank"
-        data-aos="fade-left"
       >
-        <img src={github} alt="github" className="github" />
+		  <button data-aos='flip-up' className='getInTouch__btn'>
+			  <GithubLogo />
+			  <h3> Github </h3>
+		  </button>
       </a>
     </div>
   );

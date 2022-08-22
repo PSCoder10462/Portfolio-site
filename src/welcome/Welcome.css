@@ -1,11 +1,13 @@
 .welcome {
   width: 100vw;
   height: 100vh;
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   animation-name: fadein;
   animation-duration: 2s;
+  padding: 10px;
+  flex-direction: column;
 }
 
 /* @keyframes fadein {
@@ -17,16 +19,31 @@
   }
 } */
 
-.welcome > h1 {
-  text-align: center;
-  width: 100%;
-  font-size: 64px;
-  font-weight: 600;
-  color: #d2d2d2;
+.welcome__container {
+  margin-left: 10vw;
 }
 
-.welcome > h1 > span {
-  font-weight: 1000;
-  color: white;
+.welcome__container > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--basicFontColor);
+  flex: 1;
+}
+
+.welcome__container > button {
+	background-color: var(--orange);
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 50px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+#name {
+  color: var(--orange);
   font-size: 72px;
+  margin-bottom: 40px;
 }

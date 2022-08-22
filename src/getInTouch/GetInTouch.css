@@ -1,40 +1,35 @@
-.getInTouch {
+.getInTouch, .cpProfiles {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
   margin-bottom: 50px;
 }
 
-.getInTouch > img,
-.getInTouch > a > img {
-  object-fit: contain;
-  max-height: 80px;
-  transition: 0.2s ease-in-out;
-  cursor: pointer;
+.getInTouch__btn {
+	margin: 20px;
+	background-color: var(--gray);
+	color: var(--basicFontColor);
+	padding: 2rem;
+	border-radius: 10px;
+	padding-bottom: 1rem;
+	cursor: pointer;
 }
 
-.gmail {
-  max-height: 150px !important;
+.getInTouch__btn:hover {
+	background-color: var(--lightgray);
 }
 
-.github {
-  max-height: 100px !important;
+.getInTouch__btn > h3 {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	margin-top: 10px;
 }
 
-.getInTouch > img:hover,
-.getInTouch > a > img:hover {
-  transform: scale(1.08) !important;
-}
-
-@media screen and (max-width: 470px) {
-  .linkedin {
-    margin-bottom: 2em;
-  }
-  .linkedin,
-  .gmail,
-  .github {
-    width: 90vw;
-  }
+.getInTouch__btn > svg {
+	height: 100px;
+	width: 150px;
+	fill: var(--dark);
 }

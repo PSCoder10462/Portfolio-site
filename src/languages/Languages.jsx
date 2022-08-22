@@ -1,44 +1,35 @@
-import React from "react";
-import Card from "../card/Card";
-import html_logo from "./html_logo.png";
-import css_logo from "./css_logo.png";
-import js_logo from "./js_logo.png";
-import cpp_logo from "./cpp_logo.png";
-import py_logo from "./py_logo.png";
+import NewCard from "../card/NewCard.js";
+import { CppLogo, JavascriptLogo, HtmlLogo, CssLogo } from "../Logos.js";
 
 const lang = [
-  {
-    pic: html_logo,
-    head: "html 5",
-  },
-  {
-    pic: css_logo,
-    head: "css 3",
-  },
-  {
-    pic: js_logo,
-    head: "javascript",
-  },
-  {
-    pic: cpp_logo,
-    head: "c++ 14",
-  },
-  {
-    pic: py_logo,
-    head: "python 3.x",
-  },
+	{
+		logo: CppLogo,
+		title: "c++",
+	},
+	{
+		logo: JavascriptLogo,
+		title: "javascript",
+	},
+	{
+		logo: HtmlLogo,
+		title: "html 5",
+	},
+	{
+		logo: CssLogo,
+		title: "css 3",
+	},
 ];
 
 function Languages() {
-  return (
-    <div className="languages">
-      <div className="container">
-        {lang.map((l) => (
-          <Card pic={l.pic} head={l.head} key={l.pic} />
-        ))}
-      </div>
-    </div>
-  );
+	return (
+		<div className="languages">
+			<div className="container">
+				{lang.map((l, ind) => (
+					<NewCard Logo={l.logo} title={l.title} key={ind} />
+				))}
+			</div>
+		</div>
+	);
 }
 
 export default Languages;

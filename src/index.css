@@ -1,35 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 html,
 body {
-  overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--gray); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--lightgray); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gray); 
 }
 
 body {
-  transform-style: flat;
-  background-image: linear-gradient(
-    to right bottom,
-    #00183b,
-    #001b51,
-    #001d66,
-    #001d7b,
-    #001a8e
-  );
-  background-repeat: no-repeat;
-  color: #fff;
-  min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	transform-style: flat;
+	background-color: var(--dark);
+	background-repeat: no-repeat;
+	color: #fff;
+	min-height: 100vh;
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+:root {
+	--orange: #FF9200;
+	--gray: #444;
+	--lightgray: #666;
+	--dark: #111;
+	--basicFontColor: #CCC;
 }
