@@ -16,12 +16,11 @@
 
 .about__content {
   flex: 0.6;
-  padding: 30px;
 }
 
 .about__content > p {
 	color: var(--basicFontColor);
-	font-size: 18px;
+	font-size: 22px;
 }
 
 .about__content > p > span {
