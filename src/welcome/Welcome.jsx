@@ -14,6 +14,7 @@ function Welcome() {
 				<a
 					href="https://docs.google.com/document/d/1VCCWKfNKj1mvoxuLTpNuSSbvqRJQIlTCHMd4aFlZm1E/edit?usp=sharing"
 					target="_blank"
+				    rel="noreferrer"
 				>
 					<button> Resume </button>
 				</a>
