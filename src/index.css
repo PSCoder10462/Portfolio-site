@@ -12,6 +12,11 @@ body {
 	box-sizing: border-box;
 }
 
+button {
+	outline: none;
+	border: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
