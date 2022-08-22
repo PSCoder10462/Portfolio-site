@@ -30,7 +30,7 @@
   flex: 1;
 }
 
-.welcome__container > button {
+.welcome__container > a > button {
 	background-color: var(--orange);
 	color: white;
 	padding: 10px 20px;
